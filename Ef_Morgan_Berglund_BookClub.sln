@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2027
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookClub.Data", "BookClub.Data\BookClub.Data.csproj", "{9BADE9C1-FCCE-48F9-9032-6F9F70709439}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookClub.Domain", "BookClub.Domain\BookClub.Domain.csproj", "{4B5D4B63-554D-4E78-8475-6D51FCC09FB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "UI\UI.csproj", "{86C4171E-5F1A-42CE-8FA1-A72C12589683}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BADE9C1-FCCE-48F9-9032-6F9F70709439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BADE9C1-FCCE-48F9-9032-6F9F70709439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BADE9C1-FCCE-48F9-9032-6F9F70709439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BADE9C1-FCCE-48F9-9032-6F9F70709439}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B5D4B63-554D-4E78-8475-6D51FCC09FB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B5D4B63-554D-4E78-8475-6D51FCC09FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B5D4B63-554D-4E78-8475-6D51FCC09FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B5D4B63-554D-4E78-8475-6D51FCC09FB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86C4171E-5F1A-42CE-8FA1-A72C12589683}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86C4171E-5F1A-42CE-8FA1-A72C12589683}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86C4171E-5F1A-42CE-8FA1-A72C12589683}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86C4171E-5F1A-42CE-8FA1-A72C12589683}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
