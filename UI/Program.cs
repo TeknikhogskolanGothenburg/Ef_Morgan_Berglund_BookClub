@@ -25,14 +25,22 @@ namespace UI
             //FindMember("Morgan", "Berglund");
             //FindBookByTitleAsync("Djunglebook");
             //FindBookByAuthorRaw("Lewis");
-            //FindBookByCategory();
+
 
             ////Update
 
             ////Delete
-
+            //DeleteMember();
         }
-        //Borde undevika * i select men det är bara ett exempel.
+
+        private static void DeleteMember()
+        {
+            var context = new BookClubContext();
+            var member = context.Members.Find(1);
+            context.Members.Remove(member);
+            context.SaveChanges();
+        }
+
         private static void FindBookByAuthorRaw(string name)
         {
             var context = new BookClubContext();
