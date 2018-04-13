@@ -56,8 +56,7 @@ namespace UI
 
         }
 
-        //Det är oftare man använder att leta i databasen än skriva därför Async då kan man 
-        //Blokera ui och troligen skicka upp ett meddelande om att den letar i databasen.
+
         private async static void FindBookByTitleAsync(string title)
         {
             var context = new BookClubContext();
